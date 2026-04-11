@@ -1,0 +1,10 @@
+# Môi trường ảo
+.venv/
+venv/
+env/
+__pycache__/
+
+# Các file tạm của VS Code hoặc hệ thống
+.vscode/
+*.pyc
+.DS_Store
