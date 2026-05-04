@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException
-from services.firebase_service import verify_token, db
+from services.firebase import verify_token, db
 from schemas.task import TaskCreate, TaskUpdate, TaskOut
 from google.cloud.firestore_v1 import SERVER_TIMESTAMP
 

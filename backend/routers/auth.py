@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends
-from services.firebase_service import verify_token
+from services.firebase import verify_token
 
 router = APIRouter()
 
